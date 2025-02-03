@@ -1,16 +1,17 @@
 //import Ionicons from '@expo/vector-icons/Ionicons';
-import {StyleSheet, Image} from 'react-native';//"Platform" removed from items to import
+import {StyleSheet, TextInput, Image, View} from 'react-native';//"Platform" removed from items to import
 
 //import { Collapsible } from '@/components/Collapsible';
 //import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import {ThemedText } from '@/components/ThemedText';
 import {ThemedView } from '@/components/ThemedView';
-import React from 'react';
-import View from 'react-native-reanimated';
+import React, { useState } from 'react';
+//import View from 'react-native-reanimated';
 
-export default function TabTwoScreen() {
+export default function Log_it() {
   return (
+    
     <ParallaxScrollView
      headerBackgroundColor={{ light: '#FFFFFF', dark: '#FFFFFF' }}
      headerImage={
@@ -21,6 +22,7 @@ export default function TabTwoScreen() {
      <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Log Time</ThemedText>
       </ThemedView>
+      
       <ThemedText>Log Your Practicum Time.</ThemedText>
       <ThemedText>
       <form>

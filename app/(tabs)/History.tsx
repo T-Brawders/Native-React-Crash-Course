@@ -7,7 +7,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
-export default function TabTwoScreen() {
+export default function HistoryScreen() {
   return (
     <ParallaxScrollView
     headerBackgroundColor={{ light: '#FFFFFF', dark: '#FFFFFF' }}
